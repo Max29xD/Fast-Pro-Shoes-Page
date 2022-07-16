@@ -559,7 +559,6 @@ textarea {
 }
 .contact__form-button {
 	display: flex;
-	z-index: 1;
 }
 .contact__form-button-bt {
 	position: relative;
