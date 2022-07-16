@@ -674,6 +674,12 @@ textarea {
 	font-size: 2em;
 	text-transform: capitalize;
 }
+.footer__redsocial {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .footer__redsocial-icono {
 	display: flex;
 	flex-direction: row;
