@@ -106,12 +106,12 @@ section {
 	align-items: center;
 	gap: 1em;
 	display: none;
-	cursor: pointer;
 	width: 100%;
 }
 .nav__menu-img {
 	height: 35px;
 	width: 35px;
+	cursor: pointer;
 }
 .nav__menu-logo {
 	font-size: 1.5em;
