@@ -5,11 +5,11 @@
 Esta Web Page Ha Sido Creada Para La Defensa De La Materia De Tecnología Emergente 1, De La Carrera De Ingeniería En Sistemas
 
 
-## 🚀 About Me
+## 🚀 Sobre Mi
 Soy Desarrollador Frontend y Diseñador Gráfico
 
 
-## 🛠 Skills
+## 🛠 Habilidades
 HTML, CSS, Javascript, React, Photoshop, Ilustrator, After Effect
 
 
