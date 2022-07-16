@@ -2,19 +2,31 @@
 <html lang="es">
 
 <head>
+	<!-- ====================== META ======================= -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- ======================= CSS ======================= -->
 	<link rel="stylesheet" href="./css/naturalize.min.css">
 	<link rel="stylesheet" href="./css/estilos.css">
+	<!-- =================== JAVASCRIPT ==================== -->
 	<script src="./js/vanilla-tilt.min.js" defer></script>
 	<script src="./js/main.js" defer></script>
+	<!-- ===================== TITULO ====================== -->
 	<title>Fast Pro</title>
 
 </head>
 
-<body class="body">
+<body ondragstart="return false" class="body">
+	<div class="scrollup">
+		<svg class="scrollup__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.883 122.882">
+			<path
+				d="M0,61.441L0,61.441h0.018c0,16.976,6.872,32.335,17.98,43.443c11.108,11.107,26.467,17.979,43.441,17.979v0.018h0.001 h0.001v-0.018c16.974,0,32.335-6.872,43.443-17.98s17.98-26.467,17.98-43.441h0.018v-0.001V61.44h-0.018 c0-16.975-6.873-32.334-17.98-43.443C93.775,6.89,78.418,0.018,61.443,0.018V0h-0.002l0,0v0.018 c-16.975,0-32.335,6.872-43.443,17.98C6.89,29.106,0.018,44.465,0.018,61.439H0V61.441L0,61.441z M42.48,71.7 c-1.962,1.908-5.101,1.865-7.009-0.098c-1.909-1.962-1.865-5.101,0.097-7.009l22.521-21.839l3.456,3.553l-3.46-3.569 c1.971-1.911,5.117-1.862,7.029,0.108c0.055,0.058,0.109,0.115,0.16,0.175L87.33,64.594c1.963,1.908,2.006,5.047,0.098,7.009 c-1.908,1.963-5.047,2.006-7.01,0.098L61.53,53.227L42.48,71.7L42.48,71.7z">
+			</path>
+		</svg>
+	</div>
 	<div class="top">
+		<!-- =================== ENCABEZADO ==================== -->
 		<header class="header">
 			<div class="contenedor">
 				<svg class="header__img" xmlns="http://www.w3.org/2000/svg" viewBox="135.5 361.38 1e3 356.39">
@@ -24,8 +36,22 @@
 			</div>
 		</header>
 
+		<!-- =============== BARRA DE NAVEGACIÓN =============== -->
 		<nav class="nav">
+			<div class="nav__menu">
+				<svg class="nav__menu-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+					<path
+						d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z" />
+				</svg>
+				<h2 class="nav__menu-logo">fast pro</h2>
+			</div>
 			<ul class="nav__link">
+				<div class="nav__link-close">
+					<svg class="nav__link-close-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+						<path
+							d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z" />
+					</svg>
+				</div>
 				<li class="nav__link-li">
 					<a href="#inicio" class="nav__link-li-a">inicio</a>
 				</li>
@@ -42,6 +68,7 @@
 		</nav>
 	</div>
 
+	<!-- ===================== INICIO ====================== -->
 	<section id="inicio">
 		<div class="inicio__wallpaper"></div>
 		<div class="inicio">
@@ -51,6 +78,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- ==================== NOVEDADES ==================== -->
 	<section id="novedades">
 		<h2 class="titulo">novedades</h2>
 		<div class="novedades contenedor">
@@ -111,6 +140,7 @@
 		</div>
 	</section>
 
+	<!-- ==================== CONÓCENOS ==================== -->
 	<section id="conocenos">
 		<h2 class="titulo">conocenos</h2>
 		<div class="conocenos contenedor">
@@ -136,6 +166,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- ==================== CONTACTO ===================== -->
 	<section id="contacto">
 		<h2 class="titulo">contacto</h2>
 		<div class="contacto contenedor">
@@ -143,7 +175,7 @@
 				<div class="contacto__texto-subtitle">envíame un mensaje</div>
 				<div class="contacto__texto-textalert">los datos con * son obligatorio</div>
 			</div>
-
+			<!-- =================== FORMULARIO ==================== -->
 			<form class="contact__form" id="form">
 				<div class="contact__form-inputBox name">
 					<input type="text" name="nombre" required>
@@ -168,20 +200,24 @@
 			</form>
 		</div>
 	</section>
+
+	<!-- ================== PIE DE PAGINA ================== -->
 	<footer class="footer">
 		<h2 class="footer__titulo">fast pro</h2>
+		<!-- ================= REDES SOCIALES ================== -->
 		<div class="footer__redsocial">
 			<div class="footer__redsocial-icono">
-				<a class="footer__redsocial-icono-link" title="Whatsapp" href="https://wa.link/xq6j8r" target="_blank" rel="noopener noreferrer">
-					<svg class="whatsapp" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24">
+				<a class="footer__redsocial-icono-link" title="Whatsapp" href="https://wa.link/xq6j8r" target="_blank"
+					rel="noopener noreferrer">
+					<svg class="whatsapp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<g>
 							<path style="fill-rule:evenodd;clip-rule:evenodd;"
 								d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z" />
 						</g>
 					</svg>
 				</a>
-				<a class="footer__redsocial-icono-link" title="Instagram" href="https://www.instagram.com/marcos_lbb" target="_blank"
-					rel="noopener noreferrer">
+				<a class="footer__redsocial-icono-link" title="Instagram" href="https://www.instagram.com/marcos_lbb"
+					target="_blank" rel="noopener noreferrer">
 					<svg class="instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<g>
 							<path
@@ -192,7 +228,8 @@
 						</g>
 					</svg>
 				</a>
-				<a class="footer__redsocial-icono-link" title="Telegram" href="https://t.me/marcos_lbb" target="_blank" rel="noopener noreferrer">
+				<a class="footer__redsocial-icono-link" title="Telegram" href="https://t.me/marcos_lbb" target="_blank"
+					rel="noopener noreferrer">
 					<svg class="telegram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<g>
 							<path style="fill-rule:evenodd;clip-rule:evenodd;"
@@ -200,8 +237,8 @@
 						</g>
 					</svg>
 				</a>
-				<a class="footer__redsocial-icono-link" title="Linkedin" href="https://www.linkedin.com/in/max29xd" target="_blank"
-					rel="noopener noreferrer">
+				<a class="footer__redsocial-icono-link" title="Linkedin" href="https://www.linkedin.com/in/max29xd"
+					target="_blank" rel="noopener noreferrer">
 					<svg class="linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<g>
 							<path
@@ -213,14 +250,15 @@
 						</g>
 					</svg>
 				</a>
-				<a class="footer__redsocial-icono-link" title="Gmail" href="mailto:marcos291198@gmail.com?subject=MaxCoding" target="_blank"
-					rel="noopener noreferrer">
+				<a class="footer__redsocial-icono-link" title="Gmail"
+					href="mailto:marcos291198@gmail.com?subject=MaxCoding" target="_blank" rel="noopener noreferrer">
 					<svg class="gmail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path
 							d="M24,12.5v6A5.506,5.506,0,0,1,18.5,24H5.5A5.506,5.506,0,0,1,0,18.5V8.5A5.506,5.506,0,0,1,5.5,3h4a1.5,1.5,0,0,1,0,3h-4A2.493,2.493,0,0,0,3.3,7.336l6.931,6.932a2.562,2.562,0,0,0,3.536,0l1.224-1.3a1.5,1.5,0,1,1,2.182,2.06l-1.255,1.328a5.521,5.521,0,0,1-7.808.032L3,11.278V18.5A2.5,2.5,0,0,0,5.5,21h13A2.5,2.5,0,0,0,21,18.5v-6A1.5,1.5,0,0,1,24,12.5ZM14.5,7H17V9.5a1.5,1.5,0,0,0,3,0V7h2.5a1.5,1.5,0,0,0,0-3H20V1.5a1.5,1.5,0,0,0-3,0V4H14.5A1.5,1.5,0,0,0,14.5,7Z" />
 					</svg>
 				</a>
-				<a class="footer__redsocial-icono-link" title="Paypal" href="https://paypal.me/marcoslbb?country.x=CL&locale.x=es_XC" target="_blank"
+				<a class="footer__redsocial-icono-link" title="Paypal"
+					href="https://paypal.me/marcoslbb?country.x=CL&locale.x=es_XC" target="_blank"
 					rel="noopener noreferrer">
 					<svg class="paypal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<g>
@@ -230,6 +268,7 @@
 					</svg>
 				</a>
 			</div>
+			<!-- ===================== CREDITO ===================== -->
 			<div class="footer__credito">
 				<span class="footer__credito-made">
 					Made With ❤️ By&nbsp
