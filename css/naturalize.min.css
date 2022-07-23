@@ -203,21 +203,15 @@ button,
 label {
 	font-family: inherit;
 	font-size: inherit;
+	hyphens: auto;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
-	hyphens: auto;
 	background-color: transparent;
 	color: inherit;
 	display: block;
+	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none;
-}
-table,
-tr,
-td {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 svg {
 	width: 100%;

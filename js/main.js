@@ -31,3 +31,18 @@ btnLink.forEach((index) =>
 		sidebar.classList.remove('active');
 	})
 );
+
+const getTheme = localStorage.getItem('theme');
+const body = document.querySelector('.body');
+const themeToggle = document.querySelector('.nav__link-darkmode');
+
+if (getTheme && getTheme === 'dark') {
+	body.classList.add('dark');
+}
+themeToggle.addEventListener('click', () => {
+	body.classList.toggle('dark');
+	themeToggle.classList.toggle('active');
+	!body.classList.contains('dark')
+		? localStorage.setItem('theme', 'light')
+		: localStorage.setItem('theme', 'dark');
+});
